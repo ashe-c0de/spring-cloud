@@ -1,0 +1,9 @@
+server:
+  port: 8010
+spring:
+  application:
+    name: order_8010
+  cloud:
+    nacos:
+      discovery:
+        server-addr: localhost:8849  # Nacos 服务器地址
